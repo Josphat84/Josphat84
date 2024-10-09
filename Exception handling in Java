@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        //Attempting execution using the try block (try{}})
+        try {
+            int[] arr = new int[] { 4, 5, 8 };
+            Console.Write(arr[8]);
+        }
+        
+        //The catch block safely catches any exceptions  to avoid abormal termination.
+        
+        catch(Exception e){
+            
+            Console.WriteLine("Index out of range");
+        }
+        }
+    }
+}

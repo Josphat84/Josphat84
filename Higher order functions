@@ -1,0 +1,7 @@
+c = int(input())
+
+def double_twice(func, x):
+    return func(func (x))
+def doublex(x):
+    return x*2
+print(double_twice

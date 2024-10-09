@@ -1,0 +1,8 @@
+import re
+
+expression = r"[^a-z]"
+
+if (re.match(expression , "zAIRE")):
+    print("match 1")
+else:
+    print("mismatch")

@@ -1,0 +1,22 @@
+class Machine {
+    public void start() {
+        System.out.println("Starting...");
+    }
+}
+
+class Program {
+    public static void main(String[ ] args) {
+        Machine m = new Machine() {
+            @Override public void start() {
+                System.out.println("Wooooo");
+            }
+        };
+        Machine robot = new Machine (){
+            @Override public void start(){
+                System.out.println("I am a robot");
+            }
+        };
+        
+        robot.start ();
+    }
+}

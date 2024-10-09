@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        class Person
+        {
+            private string name;
+            
+            //This is the property for setting and getting a private variable - in this case the name variable
+            public string Name // property has the same name as private variable we want to work with - this is a convention not a rule - you can use any other name you want.
+            {
+                get { return name; }
+                set { name = value; }
+            }
+        }
+        static void Main(string[] args)
+        {
+            Person p = new Person();
+            p.Name = "Bob"; //.Here we call the Name property and pass it the value "Bob"
+            Console.WriteLine(p.Name);
+        }
+    }
+}

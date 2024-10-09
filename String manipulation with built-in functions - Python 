@@ -1,0 +1,15 @@
+print("🔗🔗🔗🔗🔗".join(["spam", "eggs", "ham"]))
+#prints "spam, eggs, ham"
+
+print ("My Name".replace("Name", "Josphat"))
+
+print ("Apple is worth over US$2t.".endswith("US$2t."))
+
+print("This is a sentence".endswith("sentence"))
+# prints "True"
+
+print ("UpercasSe SeNtEnCe".upper())
+
+print ("TURN TO LOwer CASe".lower())
+
+print (["String, eggs, spinach

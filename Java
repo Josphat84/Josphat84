@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            string book = "Trump Tower took a long time . Success requires tenacity";
+            File.WriteAllText("Trump.txt",book);
+            
+            string read = File.ReadAllText("Trump.txt");
+            Console.WriteLine(read);
+        }
+    }
+}

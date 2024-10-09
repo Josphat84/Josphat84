@@ -1,0 +1,11 @@
+import re
+
+expression = r"chckout"
+
+if re.match(expression, "chckoutcheckout"):
+    
+    print("Match")
+    
+else:
+    
+    print (" No match found

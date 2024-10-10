@@ -1,0 +1,12 @@
+#  A games to fire 100 bullets
+
+#Initialize number of bullets
+bullets = 100
+
+#Setting the condition to keep firing
+
+while bullets > 0:
+    print("Firing!")
+    bullets-=3 #Fire three bullets at once
+
+print ("Out of bullets

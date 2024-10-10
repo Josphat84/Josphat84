@@ -1,0 +1,8 @@
+import re
+
+ # looking for 1 or more non-digits \D+, followed by one or more digits \d+
+ 
+ 
+expr = r"(\D+\d+)"
+
+print(re.match(expr , "Hi Jamie, were you born in  1999?"))

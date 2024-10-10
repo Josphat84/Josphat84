@@ -1,0 +1,15 @@
+import re
+
+exp = r"(.+) \1"
+
+if (re.match(exp, "Josphat Josphat")):
+    print("Match")
+
+if (re.match(exp, "The The The ")):
+    print ("match 2")
+
+if (re.match(exp ,"This This This This")):
+    print("match 3")
+
+if (re.match(exp ,"That That That That")):
+    print("last match")

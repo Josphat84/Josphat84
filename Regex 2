@@ -1,0 +1,10 @@
+import re
+
+user = input()
+
+pattern = r"ve+"
+
+if (re.match(pattern , user)):
+    print("match")
+else:
+    print ("mismatch")

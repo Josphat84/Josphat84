@@ -1,0 +1,30 @@
+div {
+    width: 60px;
+    height: 60px;
+    margin: 40%;
+    background-color: purple;
+    animation-name: colors;
+    animation-duration: 20s;
+    
+    
+}
+
+@keyframes colors {
+    
+    0%  {background-color: magenta;}
+    20% {background-color: lime;}
+    30% {transform: rotate(180deg);}
+    40% {background-color: orange;}
+    50% {transform: skew(70deg);}
+    55% {transform: scale(0.2, 0.5);}
+    60% {background-color: lime;}
+    65% {transform: scale(2, 4);}
+    70% {transform: rotate(70deg);}
+    75% {transform: skew(-70deg);}
+    80% {background-color: purple;}
+    90% { background-color: pink;}
+    95% {transform: rotate(270deg);}
+    100% {background-color: green;}
+    
+    
+}

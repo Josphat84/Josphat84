@@ -1,0 +1,26 @@
+module Mammal
+
+    class Dog
+        def speak
+            puts "Woof!"
+        end
+    end
+
+    class Cat
+        def speak
+            puts "Meow"
+        end
+    end
+end
+
+
+#Creating objects from the Mammal module
+
+dog1 = Mammal::Dog.new
+cat1 = Mammal::Cat.new
+
+
+# calling the speak methods of the cat1 and dog1 objects
+
+puts cat1.speak 
+puts dog1.speak

@@ -1,0 +1,21 @@
+function showTm(){
+    
+    var tm = new Date();
+    var sc = tm.getSeconds();
+    var min = tm.getMinutes();
+    var hr = tm.getHours();
+    
+    document.body.innerHTML = hr+":"+min+":"+sc;
+    
+    
+}
+
+setInterval(showTm, 1000);
+
+
+
+
+
+
+
+

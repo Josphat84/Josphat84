@@ -1,0 +1,24 @@
+input[type='text'], input[type='email'] {
+    border:1px solid green;
+    width:100%;
+    padding: 5px;
+    border-radius: 20px;
+}
+label {
+    font-weight: bold;
+    color:green;
+}
+input[type='button'] {
+    background-color: green;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+}
+input[type='button']:hover {
+  background-color: gray;
+}
+input[type = "text"]{
+    border-radius:20px;
+}

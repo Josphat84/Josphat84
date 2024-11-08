@@ -1,0 +1,7 @@
+days =  ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"]
+tasks = ["Python", "Bible", "Networking"]
+
+for day in days :
+    for task in tasks:
+        
+        print(day, task)
